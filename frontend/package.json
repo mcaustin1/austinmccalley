@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "My magnificent Nuxt.js project",
+  "author": "Austin McCalley",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc19",
+    "@nuxtjs/markdownit": "^1.2.7",
+    "graphql": "^14.6.0",
+    "nuxt": "^2.0.0",
+    "uikit": "^3.3.1"
+  },
+  "devDependencies": {}
+}
