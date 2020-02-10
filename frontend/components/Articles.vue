@@ -3,14 +3,14 @@
 
     <div class="uk-child-width-1-2" uk-grid>
         <div>
-          <router-link v-for="article in leftArticles" :to="{ name: 'articles-id', params: {id: article.id} }" class="uk-link-reset">
+          <router-link v-for="(article, index) in leftArticles" :to="{ name: 'articles-id', params: {id: article.id} }" class="uk-link-reset" v-bind:key="index">
             <div class="uk-card uk-card-muted">
                  <div v-if="article.image" class="uk-card-media-top">
                      <img :src="'http://localhost:1337' + article.image.url" alt="" height="100">
                  </div>
                  <div class="uk-card-body">
-                   <p id="category" v-if="article.category" class="uk-text-uppercase">{{ article.category.name }}</p>
-                   <p id="title" class="uk-text-large">{{ article.title }}</p>
+                   <small id="category" v-if="article.category" class="uk-text-uppercase">{{ article.category.name }}</small>
+                   <h2 id="title" class="uk-text-large blog-title">{{ article.title }}</h2>
                  </div>
              </div>
          </router-link>
@@ -18,14 +18,14 @@
         </div>
         <div>
           <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
-            <router-link v-for="article in rightArticles" :to="{ name: 'articles-id', params: {id: article.id} }" class="uk-link-reset">
+            <router-link v-for="(article, index) in rightArticles" :to="{ name: 'articles-id', params: {id: article.id} }" class="uk-link-reset" v-bind:key="index">
               <div class="uk-card uk-card-muted">
                    <div v-if="article.image" class="uk-card-media-top">
                        <img :src="'http://localhost:1337/' + article.image.url" alt="" height="100">
                    </div>
                    <div class="uk-card-body">
-                     <p id="category" v-if="article.category" class="uk-text-uppercase">{{ article.category.name }}</p>
-                     <p id="title" class="uk-text-large">{{ article.title }}</p>
+                     <small id="category" v-if="article.category" class="uk-text-uppercase">{{ article.category.name }}</small>
+                     <h2 id="title" class="uk-text-large">{{ article.title }}</h2>
                    </div>
                </div>
              </router-link>
@@ -57,3 +57,9 @@ export default {
   }
 }
 </script>  
+
+<style scoped>
+ #title {
+
+ }
+</style>
