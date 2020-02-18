@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.0-rc19",
     "@nuxtjs/markdownit": "^1.2.7",
+    "core-js": "2.6.10",
     "graphql": "^14.6.0",
     "nuxt": "^2.0.0",
     "uikit": "^3.3.1"
