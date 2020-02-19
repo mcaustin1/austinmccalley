@@ -1,7 +1,7 @@
 {
-  "name": "frontend",
+  "name": "QueDev.xyz",
   "version": "1.0.0",
-  "description": "My magnificent Nuxt.js project",
+  "description": "Austin's blog with reviews, tutorials, and blogs!",
   "author": "Austin McCalley",
   "private": true,
   "scripts": {
