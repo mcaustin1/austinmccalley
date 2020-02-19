@@ -6,7 +6,7 @@
           <router-link v-for="(article, index) in leftArticles" :to="{ name: 'articles-id', params: {id: article.id} }" class="uk-link-reset" v-bind:key="index">
             <div class="uk-card uk-card-muted">
                  <div v-if="article.image" class="uk-card-media-top">
-                     <img :src="'http://strapi.quedev.xyz/' + article.image.url" alt="" height="100">
+                     <img :src="'https://strapi.quedev.xyz/' + article.image.url" alt="" height="100">
                  </div>
                  <div class="uk-card-body">
                    <small id="category" v-if="article.category" class="uk-text-uppercase">{{ article.category.name }}</small>
@@ -21,7 +21,7 @@
             <router-link v-for="(article, index) in rightArticles" :to="{ name: 'articles-id', params: {id: article.id} }" class="uk-link-reset" v-bind:key="index">
               <div class="uk-card uk-card-muted">
                    <div v-if="article.image" class="uk-card-media-top">
-                       <img :src="'http://strapi.quedev.xyz/' + article.image.url" alt="" height="100">
+                       <img :src="'https://strapi.quedev.xyz/' + article.image.url" alt="" height="100">
                    </div>
                    <div class="uk-card-body">
                      <small id="category" v-if="article.category" class="uk-text-uppercase">{{ article.category.name }}</small>
