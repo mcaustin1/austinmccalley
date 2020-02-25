@@ -29,7 +29,7 @@
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
               <!-- TODO: Change the background image -->
-                <div class="uk-background-cover" style="background-image: url('https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3308&q=80 3308w');" uk-height-viewport></div>
+                <!-- <div class="uk-background-cover" style="background-image: url('https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3308&q=80 3308w');" uk-height-viewport></div> -->
                 <div class="uk-padding-large">
                     <h1 style="font-family: Staatliches;">Q. blog</h1>
                     <div class="uk-width-1-2@s">
@@ -40,7 +40,7 @@
                           </li>
                         </ul>
                     </div>
-                    <p class="uk-text-light">Built with strapi</p>
+                    <!-- <p class="uk-text-light">Built with strapi</p> -->
                 </div>
             </div>
         </div>
