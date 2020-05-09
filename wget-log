@@ -1,13 +1,0 @@
-Will not apply HSTS. The HSTS database must be a regular and non-world-writable file.
-ERROR: could not open HSTS store at '/home/austin/.wget-hsts'. HSTS will be disabled.
---2020-05-08 17:41:28--  https://avatars0.githubusercontent.com/u/2405036?s=460
-Resolving avatars0.githubusercontent.com (avatars0.githubusercontent.com)... 151.101.52.133
-Connecting to avatars0.githubusercontent.com (avatars0.githubusercontent.com)|151.101.52.133|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 35422 (35K) [image/jpeg]
-Saving to: ‘public/images/profile.jpg’
-
-public/images/profile.jpg       0%[                                                  ]       0  --.-KB/s               public/images/profile.jpg     100%[=================================================>]  34.59K  --.-KB/s    in 0.02s   
-
-2020-05-08 17:41:28 (1.59 MB/s) - ‘public/images/profile.jpg’ saved [35422/35422]
-
