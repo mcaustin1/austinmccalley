@@ -1,1 +1,1 @@
-Awesome websit eincoming!
+Awesome website incoming!
