@@ -5,7 +5,7 @@ import Layout, { siteTitle } from '../components/layout'
 
 import utilStyles from '../styles/utils.module.css'
 
-export default function Home({ allPostsData }) {
+export default function Home() {
   return (
     <Layout home>
       <Head>
@@ -18,6 +18,8 @@ export default function Home({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects & Experience</h2>
         <ul className={utilStyles.list}>
+
+
           <li className={utilStyles.listItem}>
             <Link href="https://www.npmjs.com/package/stockfinder">
               <a target="_blank">StockFinder</a>
@@ -36,7 +38,7 @@ export default function Home({ allPostsData }) {
               </ui>
             </small>
           </li>
-          
+
           <li className={utilStyles.listItem}>
             <Link href="https://discord.gg/devcord">
               <a target="_blank">Devcord - Admin</a>
