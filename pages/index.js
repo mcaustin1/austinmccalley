@@ -22,18 +22,24 @@ export default function Home() {
         <div className={utilStyles.contact}>
           <small className={utilStyles.lightText}>
             <a
+              target="_blank"
+              rel="noopener"
               className={utilStyles.contactLink}
               href="mailto:austin@austinmccalley.com"
             >
               E-Mail
             </a>
             <a
+              target="_blank"
+              rel="noopener"
               className={utilStyles.contactLink}
               href="https://github.com/austinmccalley"
             >
               GitHub
             </a>
             <a
+              target="_blank"
+              rel="noopener"
               className={utilStyles.contactLink}
               href="https://www.linkedin.com/in/austin-mccalley/"
             >
@@ -66,13 +72,23 @@ export default function Home() {
           <li className={utilStyles.listItem}>
             <Link href="https://discord.gg/devcord">
               <a target="_blank" rel="noopener">
-                Devcord &mdash; Admin
+                devcord &mdash; Admin
               </a>
             </Link>
             <br />
             <small className={utilStyles.lightText}>
               <small className={utilStyles.bold}>Sept. 2019 - Present </small>
-              <br />A discord community that unites web developers
+              <br />A Discord community that unites over 11,000 different web
+              developers across the globe. I wrote numerous open source Discord
+              bots for the organization.
+              <br />
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://github.com/devcord"
+              >
+                devcord GitHub
+              </a>
             </small>
           </li>
 
