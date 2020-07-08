@@ -11,12 +11,36 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>
-          Hardworking and motivated computer science student with proven
-          leadership and organizational skills. Passionate about development,
-          coding with modern languages.
-        </p>
+      <section className={`${utilStyles.headingMd}`}>
+        <div className={utilStyles.center}>
+          <p>
+            Hardworking and motivated computer science student with proven
+            leadership and organizational skills. Passionate about development,
+            coding with modern languages.
+          </p>
+        </div>
+        <div className={utilStyles.contact}>
+          <small className={utilStyles.lightText}>
+            <a
+              className={utilStyles.contactLink}
+              href="mailto:austin@austinmccalley.com"
+            >
+              E-Mail
+            </a>
+            <a
+              className={utilStyles.contactLink}
+              href="https://github.com/austinmccalley"
+            >
+              GitHub
+            </a>
+            <a
+              className={utilStyles.contactLink}
+              href="https://www.linkedin.com/in/austin-mccalley/"
+            >
+              LinkedIn
+            </a>
+          </small>
+        </div>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -39,7 +63,7 @@ export default function Home() {
 
           <li className={utilStyles.listItem}>
             <Link href="https://discord.gg/devcord">
-              <a target="_blank">Devcord - Admin</a>
+              <a target="_blank">Devcord &mdash; Admin</a>
             </Link>
             <br />
             <small className={utilStyles.lightText}>
@@ -50,7 +74,9 @@ export default function Home() {
 
           <li className={utilStyles.listItem}>
             <Link href="https://htcolab.org/">
-              <a target="_blank">Diabetes Connect-A-Thon - Volunteer</a>
+              <a target="_blank">
+                Diabetes Connect-A-Thon &mdash; Volunteer Software Engineer
+              </a>
             </Link>
             <br />
             <small className={utilStyles.lightText}>
