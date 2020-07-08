@@ -4,6 +4,7 @@ dependencies:
   next: 9.3.5_react-dom@16.13.1+react@16.13.1
   react: 16.13.1
   react-dom: 16.13.1_react@16.13.1
+  react-lazy-load: 3.1.13_react-dom@16.13.1+react@16.13.1
   remark: 12.0.0
   remark-html: 11.0.2
 lockfileVersion: 5.1
@@ -2444,6 +2445,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
+  /eventlistener/0.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-7Suqu4UiJ68rz4iRUscsY8pTLrg=
   /events/3.1.0:
     dev: false
     engines:
@@ -3380,10 +3385,18 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
+  /lodash.debounce/4.0.8:
+    dev: false
+    resolution:
+      integrity: sha1-gteb/zCmfEAF/9XiUVMArZyk168=
   /lodash.memoize/4.1.2:
     dev: false
     resolution:
       integrity: sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
+  /lodash.throttle/4.1.1:
+    dev: false
+    resolution:
+      integrity: sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
   /lodash.uniq/4.5.0:
     dev: false
     resolution:
@@ -4577,6 +4590,20 @@ packages:
     dev: false
     resolution:
       integrity: sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
+  /react-lazy-load/3.1.13_react-dom@16.13.1+react@16.13.1:
+    dependencies:
+      eventlistener: 0.0.1
+      lodash.debounce: 4.0.8
+      lodash.throttle: 4.1.1
+      prop-types: 15.7.2
+      react: 16.13.1
+      react-dom: 16.13.1_react@16.13.1
+    dev: false
+    peerDependencies:
+      react: ^0.14.0 || ^15.0.0-0 || ^16.0.0
+      react-dom: ^0.14.0 || ^15.0.0-0 || ^16.0.0
+    resolution:
+      integrity: sha512-eAVNUn3vhNj79Iv04NOCwy/sCLyqDEhL3j9aJKV7VJuRBDg6rCiB+BIWHuG7VXJGCgb//6nX/soR8PTyWRhFvQ==
   /react/16.13.1:
     dependencies:
       loose-envify: 1.4.0
@@ -5783,5 +5810,6 @@ specifiers:
   next: 9.3.5
   react: 16.13.1
   react-dom: 16.13.1
+  react-lazy-load: ^3.1.13
   remark: ^12.0.0
   remark-html: ^11.0.1
