@@ -10,7 +10,8 @@ class ImageLoader extends React.Component {
   static defaultProps = {
     className: '',
     loadingClassName: 'img-loading',
-    loadedClassName: 'img-loaded'
+    loadedClassName: 'img-loaded',
+    alt: 'An image'
   }
 
   onLoad = () => {
@@ -31,6 +32,7 @@ class ImageLoader extends React.Component {
         onClick={this.props.onClick}
         className={className}
         onLoad={this.onLoad}
+        alt={this.props.alt}
       />
     )
   }

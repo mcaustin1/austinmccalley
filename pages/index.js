@@ -48,7 +48,9 @@ export default function Home() {
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
             <Link href="https://www.npmjs.com/package/stockfinder">
-              <a target="_blank">StockFinder</a>
+              <a target="_blank" rel="noopener">
+                StockFinder
+              </a>
             </Link>
             <br />
             <small className={utilStyles.lightText}>
@@ -63,7 +65,9 @@ export default function Home() {
 
           <li className={utilStyles.listItem}>
             <Link href="https://discord.gg/devcord">
-              <a target="_blank">Devcord &mdash; Admin</a>
+              <a target="_blank" rel="noopener">
+                Devcord &mdash; Admin
+              </a>
             </Link>
             <br />
             <small className={utilStyles.lightText}>
@@ -74,7 +78,7 @@ export default function Home() {
 
           <li className={utilStyles.listItem}>
             <Link href="https://htcolab.org/">
-              <a target="_blank">
+              <a target="_blank" rel="noopener">
                 Diabetes Connect-A-Thon &mdash; Volunteer Software Engineer
               </a>
             </Link>
