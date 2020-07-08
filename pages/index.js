@@ -28,14 +28,14 @@ export default function Home() {
             <small className={utilStyles.lightText}>
               A light weight query tool for the IEX Cloud stock database. <br />
               Key Features
-              <ui className={utilStyles.smallList}>
+              <ul className={utilStyles.smallList}>
                 <li className={utilStyles.smallListItem}>
                   TypeScript
                 </li>
                 <li className={utilStyles.smallListItem}>
                   Node Fetch
                 </li>
-              </ui>
+              </ul>
             </small>
           </li>
 
