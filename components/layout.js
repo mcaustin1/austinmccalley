@@ -23,6 +23,7 @@ export default function Layout({ children, home }) {
           property="og:image"
           content="https://quedev.xyz/images/profile.jpg"
         />
+        <meta name="theme-color" content="#FF7A63" />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
