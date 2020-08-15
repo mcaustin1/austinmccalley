@@ -53,7 +53,7 @@ export default function Home() {
 
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
-            <Link href="https://monkeybyte.com/">
+            <Link href="https://www.npmjs.com/package/stockfinder">
               <a target="_blank" rel="noopener">
                 Monkey Byte Development Inc. &mdash; Web Developer
               </a>
