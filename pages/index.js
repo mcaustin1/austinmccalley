@@ -1,9 +1,8 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Layout, { siteTitle } from '../components/layout'
+import Head from "next/head";
+import Link from "next/link";
+import Layout, { siteTitle } from "../components/layout";
 
-
-import utilStyles from '../styles/utils.module.css'
+import utilStyles from "../styles/utils.module.css";
 
 export default function Home() {
   return (
@@ -51,7 +50,30 @@ export default function Home() {
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects & Experience</h2>
+
         <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>
+            <Link href="https://www.npmjs.com/package/stockfinder">
+              <a target="_blank" rel="noopener">
+                Monkey Bytes Development Inc. &mdash; Web Developer
+              </a>
+            </Link>
+            <br />
+            <small className={utilStyles.lightText}>
+              <small className={utilStyles.bold}>Aug. 2020 - Present </small>
+              <br />
+              Web developer that works with the following stack <br />
+              <ul className={utilStyles.smallList}>
+                <li className={utilStyles.smallListItem}>TypeScript</li>
+                <li className={utilStyles.smallListItem}>React</li>
+                <li className={utilStyles.smallListItem}>Webpack</li>
+                <li className={utilStyles.smallListItem}>KoaJS</li>
+                <li className={utilStyles.smallListItem}>MongoDB</li>
+                <li className={utilStyles.smallListItem}>MySQL</li>
+              </ul>
+            </small>
+          </li>
+
           <li className={utilStyles.listItem}>
             <Link href="https://www.npmjs.com/package/stockfinder">
               <a target="_blank" rel="noopener">
