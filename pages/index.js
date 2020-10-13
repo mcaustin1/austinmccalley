@@ -100,7 +100,7 @@ export default function Home() {
             <br />
             <small className={utilStyles.lightText}>
               <small className={utilStyles.bold}>Sept. 2019 - Present </small>
-              <br />A Discord community that unites over 11,000 different web
+              <br />A Discord community that unites over 18,000 different web
               developers across the globe. I wrote numerous open source Discord
               bots for the organization.
               <br />
