@@ -7,4 +7,6 @@ Here is some cool information about me!
 - 📧 If you need to contact me, email me at [austin@austinmccalley.com](mailto:austin@austinmccalley.com)
 
 
-![Austin McCalley's GitHub Stats](https://github-readme-stats.vercel.app/api?username=austinmccalley&count_private=true&show_icons=true&theme=graywhite)
+![Austin McCalley's GitHub Stats](https://github-readme-stats.vercel.app/api?username=austinmccalley&count_private=true&show_icons=true&theme=dark)
+<br />
+<img width="550px" src="https://wakatime.com/share/@96ca4292-0813-4340-9b25-18376042ae71/0125adf2-20f0-4ea6-aaed-f6d2323b5f69.svg" />
