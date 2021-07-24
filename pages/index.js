@@ -60,7 +60,7 @@ export default function Home() {
             </Link>
             <br />
             <small className={utilStyles.lightText}>
-              <small className={utilStyles.bold}>Aug. 2020 - Present </small>
+              <small className={utilStyles.bold}>Aug. 2020 - Jun. 2021 </small>
               <br />
               Web developer that works with the following stack <br />
               <ul className={utilStyles.smallList}>
